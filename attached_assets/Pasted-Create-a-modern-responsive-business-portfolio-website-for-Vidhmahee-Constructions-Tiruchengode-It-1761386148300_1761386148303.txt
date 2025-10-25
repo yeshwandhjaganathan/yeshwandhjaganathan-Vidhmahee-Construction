@@ -1,0 +1,128 @@
+Create a modern, responsive business portfolio website for Vidhmahee Constructions, Tiruchengode.
+It should look professional, clean, and attractive with blue and white as the primary colors.
+No blog, no database — only static pages and sections.
+
+✨ Website Theme & Style
+
+Primary Color: Royal Blue (#1E3A8A)
+
+Secondary Color: White (#FFFFFF)
+
+Accent: Light Gray / Golden highlights
+
+Font: Poppins or Montserrat (modern sans-serif)
+
+Effects: Smooth transitions, fade-in animations, soft shadows
+
+Layout Style: Minimal, professional, and consistent spacing
+
+🔹 Pages & Sections
+1️⃣ Entry Animation (Intro Page)
+
+When the website loads, create a double-door animation — screen opens from both sides (left and right).
+
+Background becomes blue, and the company logo appears at the center.
+
+Logo slowly moves upward and fades away.
+
+Then show animated text:
+“Building Dreams with Strength & Precision”
+
+After 3 seconds, automatically transition to the Home Page.
+
+2️⃣ Home Page
+
+Clean white background with a soft construction image overlay (blurred).
+
+Left side: Company Logo + tagline "Quality Beyond Concrete".
+
+Top Navigation Menu:
+Home | About Us | Projects | Services | Training | Contact
+
+Each menu item should have smooth hover effects (underline / slight color change).
+
+Scroll animation for each section.
+
+3️⃣ About Us Section
+
+Display company introduction:
+
+“Vidhmahee Constructions, based in Tiruchengode, specializes in durable and sustainable civil structures. With a focus on quality and innovation, we shape spaces that stand the test of time.”
+Include 2–3 images of construction works or team.
+
+4️⃣ Projects Section
+
+Showcase sample projects as modern cards or gallery:
+
+Residential Building – Tiruchengode (2024)
+
+Commercial Complex – Namakkal (2023)
+
+Villa Project – Erode (2022)
+Each project card should have hover zoom or fade-in animation.
+
+5️⃣ Services Section
+
+List services clearly in icon cards:
+
+Civil Construction
+
+Structural Design
+
+Renovation Works
+
+Architectural Consultation
+
+Project Planning
+Each card → light blue background hover + smooth glow effect.
+
+6️⃣ Training & Internship Section
+
+Add a section titled “Training & Internships” with description:
+
+“At Vidhmahee Constructions, we provide hands-on construction training and internship programs for engineering students. Our sessions include real-site exposure, technical guidance, and project-based learning.”
+
+Include points:
+
+Practical site visits
+
+Mentorship from engineers
+
+Certificate of Completion
+
+Add a button: “Join Now” → opens mailto:vidhmaheeconstructions@gmail.com
+
+7️⃣ Contact / Footer Section
+
+Footer should have:
+
+📍 Tiruchengode, Namakkal District
+
+📞 +91 XXXXX XXXXX
+
+✉️ vidhmaheeconstructions@gmail.com
+
+Social Icons: Facebook, Instagram, LinkedIn (clickable)
+Footer background: Blue, text: White
+
+🎨 Animation Flow Summary
+
+Double-door entry → Blue background → Logo → Tagline → Home Page
+
+Smooth scroll navigation
+
+Fade-in, slide-up animations for text and images
+
+Subtle hover effects for buttons and project cards
+
+⚙️ Build Mode Instructions
+
+Generate this website as a fully responsive static portfolio suitable for Framer, Dorik, Wix, or Webflow.
+No backend, no CMS, no blog — only static content with animations.
+Include smooth scroll, transitions, and mobile-friendly design.
+
+🧱 Website Name:
+
+Vidhmahee Constructions
+📍 Tiruchengode, Tamil Nadu, India
+🏗️ "Building Dreams with Strength & Precision"
