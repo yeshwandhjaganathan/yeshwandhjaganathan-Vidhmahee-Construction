@@ -49,12 +49,17 @@ app.use((req, res, next) => {
 (async () => {
   const server = await registerRoutes(app);
 
-  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+  
+app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
 
+    // respond to client
     res.status(status).json({ message });
-    throw err;
+
+    // log server-side error (don't re-throw in production, it would crash the process)
+    // you can extend this to send error to Sentry / log aggregator
+    console.error('Unhandled error:', err);
   });
 
   // importantly only setup vite in development and after
