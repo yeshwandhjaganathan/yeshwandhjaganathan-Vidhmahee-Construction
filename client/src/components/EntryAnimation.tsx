@@ -63,7 +63,7 @@ export function EntryAnimation({ onComplete }: EntryAnimationProps) {
             >
               <img
                 src={companyLogo}
-                alt="Vidhmahee Constructions"
+                alt="Vidhmahee Construction"
                 className="w-48 h-48 object-contain"
               />
             </motion.div>

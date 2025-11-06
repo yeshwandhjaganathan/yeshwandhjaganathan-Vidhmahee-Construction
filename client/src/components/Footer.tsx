@@ -23,11 +23,11 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img 
                 src={companyLogo} 
-                alt="Vidhmahee Constructions" 
+                alt="Vidhmahee Construction" 
                 className="h-12 w-12 object-contain brightness-0 invert"
               />
               <div>
-                <h3 className="text-xl font-bold">Vidhmahee Constructions</h3>
+                <h3 className="text-xl font-bold">Vidhmahee Construction</h3>
                 <p className="text-sm text-primary-foreground/80">Quality Beyond Concrete</p>
               </div>
             </div>
@@ -60,11 +60,11 @@ export function Footer() {
                 <div>
                   <p className="font-medium">Phone</p>
                   <a 
-                    href="tel:+91XXXXXXXXXX" 
+                    href="tel:+919750172873" 
                     className="text-primary-foreground/80 hover:text-white transition-colors"
                     data-testid="link-phone"
                   >
-                    +91 XXXXX XXXXX
+                    +91 97501 72873,+91 98436 87273
                   </a>
                 </div>
               </div>
@@ -73,11 +73,11 @@ export function Footer() {
                 <div>
                   <p className="font-medium">Email</p>
                   <a 
-                    href="mailto:vidhmaheeconstructions@gmail.com" 
+                    href="mailto:vidhmaheeconstruction@gmail.com" 
                     className="text-primary-foreground/80 hover:text-white transition-colors"
                     data-testid="link-email"
                   >
-                    vidhmaheeconstructions@gmail.com
+                    vidhmaheeconstruction@gmail.com
                   </a>
                 </div>
               </div>
@@ -114,7 +114,14 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            &copy; {new Date().getFullYear()} Vidhmahee Constructions. All rights reserved.
+            &copy; {new Date().getFullYear()} Vidhmahee Construction. All rights reserved.
+             <a 
+                    href="https://yeshwandhjs-portfolio.netlify.app/" 
+                    className="text-primary-foreground/80 hover:text-white transition-colors"
+                    data-testid="link-email"
+                  >
+                        &copy; {} Designd by YESHWANDH J S
+                  </a>
           </p>
         </div>
       </div>

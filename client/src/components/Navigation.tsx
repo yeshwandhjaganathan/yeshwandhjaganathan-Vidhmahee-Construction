@@ -71,11 +71,11 @@ export function Navigation() {
             >
               <img 
                 src={companyLogo} 
-                alt="Vidhmahee Constructions" 
+                alt="Vidhmahee Construction" 
                 className="h-12 w-12 object-contain"
               />
               <div className="hidden sm:block">
-                <h2 className="text-xl font-bold text-primary">Vidhmahee Constructions</h2>
+                <h2 className="text-xl font-bold text-primary">Vidhmahee Construction</h2>
                 <p className="text-xs text-muted-foreground">Quality Beyond Concrete</p>
               </div>
             </motion.div>

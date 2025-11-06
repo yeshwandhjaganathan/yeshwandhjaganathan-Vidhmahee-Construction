@@ -1,6 +1,11 @@
+| Type            | Example                             | Why ignored                                         |
+| --------------- | ----------------------------------- | --------------------------------------------------- |
+| Dependencies    | `node_modules/`                     | Render auto-installs from `package.json`            |
+| Build outputs   | `dist/`, `build/`, `server/public/` | Render builds these fresh during deploy             |
+| Environment     | `.env`, `.env.local`                | Secrets like DB passwords shouldn’t go to GitHub ⚠️ |
+| IDE configs     | `.vscode/`, `.replit/`, `.local/`   | Personal settings – useless for deployment          |
+| System junk     | `.DS_Store`, `Thumbs.db`            | OS-specific junk                                    |
+| Temporary files | `tmp/`, `cache/`                    | Not needed in GitHub                                |
+| Archive files   | `*.zip`, `*.tar.gz`                 | Large files not part of code                        |
+| Backup configs  | `components.json.bak`               | Sometimes shadcn/tailwind generates backups         |
 node_modules
-dist
-.DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz

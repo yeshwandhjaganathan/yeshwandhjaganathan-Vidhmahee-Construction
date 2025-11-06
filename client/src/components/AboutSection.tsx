@@ -41,7 +41,7 @@ export function AboutSection() {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Vidhmahee Constructions, based in Tiruchengode, specializes in durable and 
+            Vidhmahee Construction, based in Tiruchengode, specializes in durable and 
             sustainable civil structures. With a focus on quality and innovation, we shape 
             spaces that stand the test of time.
           </p>
@@ -58,7 +58,7 @@ export function AboutSection() {
               Building Excellence Since Day One
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              At Vidhmahee Constructions, we believe that every structure tells a story. 
+              At Vidhmahee Construction, we believe that every structure tells a story. 
               Our commitment to excellence is reflected in every project we undertake, 
               from residential buildings to commercial complexes.
             </p>

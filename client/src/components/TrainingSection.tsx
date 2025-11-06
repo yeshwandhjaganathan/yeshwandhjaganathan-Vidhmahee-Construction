@@ -38,7 +38,7 @@ export function TrainingSection() {
           className="bg-white rounded-lg shadow-md p-8 md:p-12"
         >
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-center">
-            At Vidhmahee Constructions, we provide hands-on construction training and 
+            At Vidhmahee Construction, we provide hands-on construction training and 
             internship programs for engineering students. Our sessions include real-site 
             exposure, technical guidance, and project-based learning.
           </p>

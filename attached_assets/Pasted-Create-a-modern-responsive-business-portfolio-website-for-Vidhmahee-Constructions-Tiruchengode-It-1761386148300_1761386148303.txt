@@ -1,4 +1,4 @@
-Create a modern, responsive business portfolio website for Vidhmahee Constructions, Tiruchengode.
+Create a modern, responsive business portfolio website for Vidhmahee Construction, Tiruchengode.
 It should look professional, clean, and attractive with blue and white as the primary colors.
 No blog, no database — only static pages and sections.
 
@@ -47,7 +47,7 @@ Scroll animation for each section.
 
 Display company introduction:
 
-“Vidhmahee Constructions, based in Tiruchengode, specializes in durable and sustainable civil structures. With a focus on quality and innovation, we shape spaces that stand the test of time.”
+“225Vidhmahee Construction, based in Tiruchengode, specializes in durable and sustainable civil structures. With a focus on quality and innovation, we shape spaces that stand the test of time.”
 Include 2–3 images of construction works or team.
 
 4️⃣ Projects Section
@@ -80,7 +80,7 @@ Each card → light blue background hover + smooth glow effect.
 
 Add a section titled “Training & Internships” with description:
 
-“At Vidhmahee Constructions, we provide hands-on construction training and internship programs for engineering students. Our sessions include real-site exposure, technical guidance, and project-based learning.”
+“At 225Vidhmahee Construction, we provide hands-on construction training and internship programs for engineering students. Our sessions include real-site exposure, technical guidance, and project-based learning.”
 
 Include points:
 
@@ -123,6 +123,6 @@ Include smooth scroll, transitions, and mobile-friendly design.
 
 🧱 Website Name:
 
-Vidhmahee Constructions
+225Vidhmahee Construction
 📍 Tiruchengode, Tamil Nadu, India
 🏗️ "Building Dreams with Strength & Precision"
