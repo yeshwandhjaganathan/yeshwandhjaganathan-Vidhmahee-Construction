@@ -76,11 +76,19 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
 // ALWAYS serve the app on the port specified in the environment variable PORT
   // Cloud hosts expose a PORT and require binding to 0.0.0.0.
   const port = parseInt(process.env.PORT || '5000', 10);
-  // bind to 0.0.0.0 so the server is reachable from outside the container
-  const host = process.env.HOST || "0.0.0.0";
+const host = process.env.HOST || '0.0.0.0';
 
-  server.listen(port, host, () => {
-    log(`✅ Server running at http://${host}:${port}`);
-  });
+server.listen(
+  {
+    port,
+    host,
+  },
+  () => {
+    // show friendly message: if 0.0.0.0, browser use localhost for local dev
+    const displayHost = host === '0.0.0.0' ? 'localhost' : host;
+    console.log(`🚀 Server is running at http://${displayHost}:${port}`);
+  }
+);
+
 
 })();
